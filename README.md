@@ -60,4 +60,36 @@ Ensure Isabelle and its dependencies are installed and configured in your enviro
 │                     ↓                                                      │
 │             Pass@K + Round-Trip Consistency                                 │
 └─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## References
+
+```
+@software{isabelle2024,
+  title        = {Isabelle: A Generic Proof Assistant},
+  author       = {Paulson, Lawrence C. and Nipkow, Tobias and Wenzel, Makarius},
+  year         = {2024},
+  howpublished = {\url{https://isabelle.in.tum.de/}},
+  note         = {Technical University of Munich}
+}
+```
+```
+@misc{openai_gpt4omini_2024,
+  title        = {GPT-4o-mini Model},
+  author       = {OpenAI},
+  year         = {2024},
+  howpublished = {\url{https://platform.openai.com/docs/models#gpt-4o-mini}},
+  note         = {Compact multimodal large language model}
+}
+```
+```
+@inproceedings{hendrycks2021measuring,
+  title        = {Measuring Mathematical Problem Solving With the MiniF2F Benchmark},
+  author       = {Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Anselm and Basart, Steven and Steinhardt, Jacob and Song, Dawn},
+  booktitle    = {NeurIPS Datasets and Benchmarks Track (Round 1)},
+  year         = {2021},
+  url          = {https://github.com/openai/miniF2F}
+}
+```
+
 
