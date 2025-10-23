@@ -7,7 +7,7 @@ This repository contains the experimental setup and evaluation scripts for **Pas
 ## 🧩 Overview
 
 We evaluate the **robustness and round-trip fidelity** of natural-language (NL) to formal logic translation, and vice versa.  
-Our approach measures **consistency degradation** across chained translations and quantifies performance via **Pass@K** metrics.
+Our approach measures **consistency degradation** across multiple translations and quantifies performance via **Pass@K** metrics.
 
 ---
 
