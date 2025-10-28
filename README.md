@@ -50,15 +50,17 @@ Ensure Isabelle and its dependencies are installed and configured in your enviro
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ Ground Truth NL                                                             │
 │    │                                                                        │
-│    └──> GPT-4o-mini → 10 Formal (Isabelle)                                  │
-│                     ↓                                                      │
+│    └──> GPT-4o-mini → 10 Formal (Isabelle/Lean)                             │
+|    └──> Claude-3.7  → 10 Formal (Isabelle/Lean)                             │
+│                     ↓                                                       │
 │             Pass@K Evaluation                                               │
 │                                                                             │
 │ Ground Truth Formal                                                         │
 │    │                                                                        │
-│    └──> GPT-4o-mini → 10 NL → 10 Formal                                     │
-│                     ↓                                                      │
-│             Pass@K + Round-Trip Consistency                                 │
+│    └──> GPT-4o-mini → NL → 10 Formal (Isabelle/Lean)                        |
+|    └──> Claude-3.7  → NL → 10 Formal (Isabelle/Lean)                        │
+│                     ↓                                                       │
+│             Pass@K Evaluation                                               │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
